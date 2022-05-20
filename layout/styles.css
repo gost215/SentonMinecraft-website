@@ -1,0 +1,163 @@
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(img/background2.png);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 64px 1fr 30px;
+}
+
+/* Header */
+
+header {
+    display: grid;
+    width: 100vw;
+    height: 64px;
+    background-color: #181818;
+    justify-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerContent {
+    display: grid;
+    width: 70vw;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.logoSection {
+    display: grid;
+    justify-self: start;
+    grid-template-columns: 48px 1fr;
+    column-gap: 10px;
+}
+
+.imgLogoWrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoText {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+a.logoTextLink>span {
+    font-size: 32px;
+}
+
+nav.headerNavigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.headerNavigationElement {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+a.headerNavigationLink {
+    color: white;
+    text-decoration: none;
+}
+
+a.headerNavigationLink>span {
+    font-size: 18px;
+}
+
+a.headerNavigationLink>span:hover {
+    color: rgb(255, 231, 167);
+}
+
+.loginSection {
+    display: grid;
+    justify-self: end;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginButton {
+    background-color: #E8EAFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-radius: 25px;
+}
+
+.loginButton>span {
+    font-size: 14px;
+}
+
+/* Main */
+
+main {
+    display: grid;
+}
+
+section.tilesHolder {
+    display: grid;
+    align-self: end;
+    grid-template-columns: 5fr 2fr;
+    grid-auto-rows: 80px 80px 80px;
+    max-width: 60vw;
+    padding-bottom: 15vh;
+}
+
+section.tilesHolder>div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+.headerTile {
+    background-color: #181818;
+    color: white;
+}
+
+.headerTile>h1 {
+    font-weight: 300;
+}
+
+.playersOnlineTile {
+    background-color: #DEDEDE;
+    grid-template-columns: auto;
+}
+
+.serverDesctiptionTile {
+    background-color: #DEDEDE;
+    margin-left: 100px;
+    height: 160px;
+    font-size: 14px;
+}
+
+.startPlayTile {
+    background-color: #C570EA;
+}
+
+.startPlayTile span {
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>span {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}

@@ -42,6 +42,15 @@ header a {
     align-items: center;
 }
 
+:link:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+}
+
+a.imgLogoLink {
+    height: 53px;
+}
+
 .logoText {
     display: grid;
     justify-content: center;
@@ -83,6 +92,12 @@ a.headerNavigationLink>span:hover {
     align-items: center;
 }
 
+.loginSection :hover {
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+}
+
 .loginButton {
     background-color: #E8EAFF;
     padding-top: 10px;
@@ -111,7 +126,7 @@ section.tilesHolder {
     padding-bottom: 15vh;
 }
 
-section.tilesHolder>div {
+section.tilesHolder>div:not(.startPlayTile){
     display: grid;
     justify-content: center;
     align-items: center;
@@ -126,11 +141,17 @@ section.tilesHolder>div {
 
 .headerTile>h1 {
     font-weight: 300;
+    font-size: 36px
 }
 
 .playersOnlineTile {
     background-color: #DEDEDE;
     grid-template-columns: auto;
+}
+
+.playerOnlineSign {
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .serverDesctiptionTile {
@@ -142,10 +163,25 @@ section.tilesHolder>div {
 
 .startPlayTile {
     background-color: #C570EA;
+    display: grid;
+    opacity: 0.8;
 }
 
-.startPlayTile span {
+.startPlayTile:hover {
+    opacity: 1;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.startPlayTile>a {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.startPlayTile h2 {
     color: white;
+    font-weight: 300;
+    font-size: 24px;
 }
 
 /* Footer */

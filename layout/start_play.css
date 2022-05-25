@@ -1,0 +1,83 @@
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(img/background2.png);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 64px 1fr 30px;
+}
+
+/* Header */
+
+.headerNavigationElement:nth-child(4) span {
+    color: #CF3F93;
+}
+
+/* Main */
+
+main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+section.startPlayHolder {
+    background: rgba(255, 255, 255, 0.72);
+    opacity: 0.72;
+    width: 60vw;
+    height: 500px;
+    padding: 20px;
+}
+
+.fastStartSign > h3 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.manualHolder {
+    display: grid;
+    padding-left: 30px;
+}
+
+.manualElement span {
+    color: #FF04AA;
+}
+
+.downloadLauncherHolder {
+    display: grid;
+    grid-template-columns: 151px;
+    padding-left: 20px;
+}
+
+.windowsLauncher {
+    display: grid;
+}
+
+.windowsLauncher > a {
+    display: grid;
+}
+
+.enjoyTheGameSign {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.enjoyTheGameSign > p {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+/* Footer */
+
+footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>span {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}

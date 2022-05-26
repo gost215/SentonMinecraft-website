@@ -10,6 +10,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+@import '@angular/cdk/overlay-prebuilt.css';
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -362,4 +364,15 @@ app-root {
   background-size: cover;
   display: grid;
   grid-template-rows: 64px 1fr 30px;
+}
+
+.overlay-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-panel {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20px;
 }

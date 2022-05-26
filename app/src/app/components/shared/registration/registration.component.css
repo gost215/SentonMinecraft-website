@@ -46,23 +46,7 @@ button :hover {
 }
 
 .text-button:hover {
-   background-color: rgba(0, 0, 0, 0.1);
-}
-
-.reg-button {
-  margin-top: 5px;
-  background-color: transparent;
-  border: none;
-  color: rgba(0, 0, 0, 0.8);
-  background-image: linear-gradient(#C570EA, #C570EA);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size .3s;
-}
-
-.reg-button:hover {
-  background-size: 100% 2px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .overlay-backdrop {

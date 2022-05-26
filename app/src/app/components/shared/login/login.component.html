@@ -1,13 +1,14 @@
 <section class="login-form">
-  <h3>Welcome Back {{ data }}</h3>
+  <h3>Вход</h3>
 
-  <label for="email">Email</label>
+  <label for="email">Логин</label>
   <input id="email" type="text" />
 
-  <label for="password">Password</label>
+  <label for="password">Пароль</label>
   <input id="password" type="password" />
 
-  <button>Sign In</button>
-  <button class="text-button" (click)="close()">Cancel</button>
+  <button>Войти</button>
+  <button class="reg-button" (click)="openRegistration()">Регистрация</button>
+  <button class="text-button" (click)="close()">Отмена</button>
 </section>
 

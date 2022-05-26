@@ -376,3 +376,7 @@ app-root {
   background-color: #ffffff;
   padding: 20px;
 }
+
+.cdk-overlay-container {
+  font-family: 'Roboto', sans-serif;
+}

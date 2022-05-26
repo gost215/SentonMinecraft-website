@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'header-component',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css']
 })
-export class AppComponent {
-  title = 'trppProject';
-
+export class HeaderComponent {
   clicked(event: any): void {
     console.log(event.target)
     console.log(event.target.value) //в данном случае undefined

@@ -2,14 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6433ea1-6fb5-4643-86a4-b161b4a2c7f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/header/header.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/img/background2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/img/background3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/img/windows-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/start_play.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/start_play.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/styles.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,17 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/studi/WebstormProjects/trppProject/app/package.json&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\studi\\WebstormProjects\\trppProject\\app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (trppProject)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/app/node_modules/@angular/cli" />
       <working-directory value="$PROJECT_DIR$" />
       <node-interpreter value="project" />
       <envs />
@@ -43,7 +80,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Angular CLI Server" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
+      <package-json value="$PROJECT_DIR$/app/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -62,6 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1653056995703</updated>
       <workItem from="1653057000021" duration="592000" />
+      <workItem from="1653588505707" duration="3106000" />
+      <workItem from="1653591652091" duration="1099000" />
     </task>
     <servers />
   </component>

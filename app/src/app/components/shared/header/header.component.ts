@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {LoginComponent} from "../login/login.component";
+import {DialogService} from "../dialog/dialog.service";
 
 @Component({
   selector: 'header-component',
@@ -6,9 +8,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  clicked(event: any): void {
-    console.log(event.target)
-    console.log(event.target.value) //в данном случае undefined
-    console.log(event.keyCode) //в данном случае undefined
+  constructor(private dialog: DialogService) {}
+
+  openLogin() {
+    const dialogRef = this.dialog.open(LoginComponent, { data: 'John' });
+
+    dialogRef.afterClosed().subscribe(() => {
+      // Subscription runs after the dialog closes
+      console.log('Dialog closed!');
+    });
   }
 }

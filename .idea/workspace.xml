@@ -2,30 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6433ea1-6fb5-4643-86a4-b161b4a2c7f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/footer/footer.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/footer/footer.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/footer/footer.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/header/header.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/header/header.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/app/components/shared/login/login.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/img/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/img/background2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/img/background3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/img/windows-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/start_play.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/start_play.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/app/components/shared/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/components/shared/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/app/components/shared/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/components/shared/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -67,6 +53,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\studi\WebstormProjects\trppProject\app\src\app\components\shared" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (trppProject)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
@@ -100,7 +91,7 @@
       <updated>1653056995703</updated>
       <workItem from="1653057000021" duration="592000" />
       <workItem from="1653588505707" duration="3106000" />
-      <workItem from="1653591652091" duration="1099000" />
+      <workItem from="1653591652091" duration="7333000" />
     </task>
     <servers />
   </component>

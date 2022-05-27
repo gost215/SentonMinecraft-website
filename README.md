@@ -2,26 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
-## Development server
+Цель проекта
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Создание сайта для скачивания сервера для игры майнкрафт.
 
-## Code scaffolding
+  Информация о приложении
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Мне, как любителю игры Майнкрафт, с детства хотелось создать удобный и понятный сайт для скачивания сервера с модификациями для этой игры.
+Как потребитель, я хочу иметь красивый и интуитивно понятный сайт, на котором я могу зарегестрироваться скачать сервер для игры Майнкрафт для игры с людьми по всему миру.
+Как управляющий, я должен создать и поддерживать сайт, на котором будет расположен сервер для игры в Майнкрафт. Сайт должен быть удобным, понятным и информативным. Так же на сайте должна присутствовать регистрация и авторизация, для того чтобы пользователь мог сыграть на предоставляемом сайтом сервере.
+ 
+ Информация о проекте
+ 
+Аналогов нашего сайта достаточно много. Однако, наш сайт на фоне остальных отличается предоставлением авторского контента на основе популярной онлайн-игры Майнкрафт, удобным дизайном, понятным интерфейсом и отсутствием какой либо рекламы. 

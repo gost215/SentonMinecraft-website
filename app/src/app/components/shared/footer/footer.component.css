@@ -1,0 +1,11 @@
+footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+footer>span {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+}

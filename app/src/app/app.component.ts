@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'trppProject';
+
+  clicked(event: any): void {
+    console.log(event.target)
+    console.log(event.target.value) //в данном случае undefined
+    console.log(event.keyCode) //в данном случае undefined
+  }
 }
